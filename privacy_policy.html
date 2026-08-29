@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - The Elimination Game</title>
+    <!-- Import Montserrat to match the bold, italic aesthetic of the app -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,900&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-dark: #0F0F13;
+            --neon-yellow: #DDFC2B;
+            --text-white: #FFFFFF;
+            --text-grey: #A0A0A0;
+            --card-bg: rgba(255, 255, 255, 0.03);
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-grey);
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.7;
+        }
+
+        /* Top faded gradient line similar to the app's top borders */
+        .top-glow {
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, transparent, var(--neon-yellow), transparent);
+            margin-bottom: 40px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px 60px 20px;
+        }
+
+        /* Header Styling mimicking the App's Title */
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .the-text {
+            color: var(--text-white);
+            font-size: 14px;
+            font-weight: 900;
+            letter-spacing: 3px;
+            font-style: italic;
+            margin-bottom: -10px;
+        }
+
+        h1 {
+            color: var(--neon-yellow);
+            font-size: clamp(32px, 8vw, 46px);
+            font-weight: 900;
+            letter-spacing: 1px;
+            font-style: italic;
+            text-shadow: 0 0 15px rgba(221, 252, 43, 0.4);
+            text-transform: uppercase;
+            margin: 10px 0;
+        }
+
+        .subtitle {
+            color: var(--text-white);
+            font-size: 18px;
+            font-weight: 900;
+            letter-spacing: 2px;
+            font-style: italic;
+            margin-top: -5px;
+        }
+
+        /* Content Formatting */
+        .policy-card {
+            background-color: var(--card-bg);
+            border: 1.5px solid var(--neon-yellow);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .effective-date {
+            color: var(--neon-yellow);
+            font-weight: 700;
+            font-style: italic;
+            margin-bottom: 20px;
+            display: inline-block;
+            border-bottom: 2px solid var(--neon-yellow);
+            padding-bottom: 5px;
+        }
+
+        h2 {
+            color: var(--text-white);
+            font-size: 22px;
+            font-weight: 900;
+            font-style: italic;
+            letter-spacing: 1px;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            color: var(--text-white);
+            font-size: 16px;
+            font-weight: 700;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        strong {
+            color: var(--text-white);
+            font-weight: 700;
+        }
+
+        a {
+            color: var(--neon-yellow);
+            text-decoration: none;
+            font-weight: 700;
+            transition: text-shadow 0.2s ease;
+        }
+
+        a:hover {
+            text-shadow: 0 0 10px rgba(221, 252, 43, 0.6);
+            text-decoration: underline;
+        }
+
+        /* Footer styling */
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 20px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-glow"></div>
+
+    <div class="container">
+        <header>
+            <h1>THE ELIMINATION GAME</h1>
+            <div class="subtitle">PRIVACY POLICY</div>
+        </header>
+
+        <main class="policy-card">
+            <span class="effective-date">Effective Date: August 29, 2026</span>
+
+            <p>This Privacy Policy explains how "The Elimination Game: Trivia Party" ("we," "us," or "our") collects, uses, shares, and protects your information when you use our mobile application (the "App"). By using the App, you agree to the collection and use of information in accordance with this policy.</p>
+
+            <h2>1. Information We Collect</h2>
+            <p>We collect information to provide, manage, and improve the game experience.</p>
+            <ul>
+                <li><strong>Account Information (via Google Sign-In):</strong> When you log in using your Google account, we collect basic profile information provided by Google, specifically your email address and authentication token.</li>
+                <li><strong>User-Generated Content:</strong> We collect your chosen in-game username ("codename"), the answers you submit during gameplay, and any feedback or bug reports you submit through our Feedback Form.</li>
+                <li><strong>Gameplay Data:</strong> We track your in-game statistics, including rounds survived, match history, hearts lost, and global leaderboard rankings.</li>
+                <li><strong>Device and Usage Data:</strong> We automatically collect standard diagnostic data such as your device type, operating system, IP address, crash logs, and general usage patterns to help us troubleshoot and improve the App. This is collected via PostHog / Google Analytics for Firebase.</li>
+            </ul>
+            <p>We do not knowingly collect any information beyond what is described above.</p>
+
+            <h2>2. How We Use Your Information</h2>
+            <p>We use the collected information for the following purposes:</p>
+            <ul>
+                <li>To create and authenticate your account.</li>
+                <li>To facilitate multiplayer matchmaking and validate gameplay answers.</li>
+                <li>To track your statistics and display your username on global leaderboards.</li>
+                <li>To communicate with you regarding account security or technical issues.</li>
+                <li>To analyze bugs, crashes, and feedback to improve the App's performance.</li>
+            </ul>
+
+            <h2>3. Legal Basis for Processing (EU/UK Users)</h2>
+            <p>If you are located in the European Economic Area or United Kingdom, we process your data under the following legal bases:</p>
+            <ul>
+                <li><strong>Consent:</strong> for account creation via Google Sign-In and for any optional personalized advertising.</li>
+                <li><strong>Legitimate interest:</strong> for crash reporting, diagnostics, and app improvement, where this does not override your fundamental rights.</li>
+                <li><strong>Legal obligation:</strong> where we must retain or disclose data to comply with the law.</li>
+            </ul>
+            <p>You may withdraw consent at any time by deleting your account (see Section 5).</p>
+
+            <h2>4. How We Share Your Information</h2>
+            <p>We do not sell your personal data to third parties. We only share your information in the following circumstances:</p>
+            <ul>
+                <li><strong>With Other Players:</strong> Your chosen username and your submitted game answers are visible to your opponents during multiplayer matches and on public leaderboards.</li>
+                <li><strong>With Service Providers:</strong> We use trusted third-party services to operate the App, including Supabase (secure database hosting), Render (backend API hosting and data processing), and Google Play Services (authentication). These providers have access to your data only to perform tasks on our behalf and are contractually obligated not to disclose or use it for any other purpose.</li>
+                <li><strong>International Data Transfers:</strong> Our service providers may store or process data in countries other than your own. Where required, we rely on appropriate safeguards such as Standard Contractual Clauses to protect data transferred outside the EEA/UK.</li>
+                <li><strong>For Legal Reasons:</strong> We may disclose your information if required to do so by law or in response to valid requests by public authorities.</li>
+                <li><strong>Business Transfers:</strong> If we are involved in a merger, acquisition, or asset sale, your data may be transferred; we will notify you before your data becomes subject to a different privacy policy.</li>
+            </ul>
+
+            <h2>5. Data Retention and Account Deletion</h2>
+            <p>We retain your data only for as long as your account is active or as needed to provide the App's services.</p>
+            <h3>How to Delete Your Data:</h3>
+            <ul>
+                <li><strong>In-App Deletion:</strong> Open the App, navigate to the Profile Menu (☰), and select Delete Account. Confirming this action will immediately and permanently erase your account, email association, gameplay statistics, and leaderboard rankings from our servers.</li>
+                <li><strong>Web Deletion Request:</strong> If you no longer have the App installed, you can request account deletion at: <a href="https://forms.gle/gotjWc9zTy4SJSPs6" target="_blank">https://forms.gle/gotjWc9zTy4SJSPs6</a></li>
+            </ul>
+            <p>Deletion requests are processed within 30 days. Some non-identifying, aggregated statistics (e.g., anonymized match counts) may be retained after deletion for analytics purposes.</p>
+
+            <h2>6. Your Privacy Rights</h2>
+            <p>Depending on your location, you may have the right to:</p>
+            <ul>
+                <li>Access the personal data we hold about you.</li>
+                <li>Correct inaccurate data.</li>
+                <li>Delete your data (see Section 5).</li>
+                <li>Object to or restrict certain processing.</li>
+                <li>Data portability — receive your data in a portable format.</li>
+                <li>(California residents) Know what personal information is collected and request its deletion. We do not sell personal information as defined under the CCPA/CPRA.</li>
+            </ul>
+            <p>To exercise any of these rights, contact us at the email in Section 10.</p>
+
+            <h2>7. Data Security</h2>
+            <p>We implement industry-standard security measures — including Row Level Security on our databases and encrypted OAuth tokens — to protect your personal information from unauthorized access, alteration, or destruction. However, no method of electronic transmission or storage is 100% secure, and we cannot guarantee absolute security.</p>
+
+            <h2>8. User-Generated Content and Community Conduct</h2>
+            <p>Usernames and gameplay answers are visible to other players and, in the case of leaderboard rankings, publicly. Do not include personal information in your username. We reserve the right to remove content or suspend accounts that include harassment, hate speech, impersonation, or other abusive content. To report abusive content or behavior, contact us at the email in Section 10.</p>
+
+            <h2>9. Children's Privacy</h2>
+            <p>Our App is not intended for use by children under the age of 13 (or the minimum age required by your country of residence). We do not knowingly collect personal data from children under this age. If we discover that a child under 13 has provided us with personal data, we will delete this information promptly. If you are a parent or guardian and believe your child has provided us with personal data, please contact us.</p>
+
+            <h2>10. Contact Us</h2>
+            <p>If you have any questions or suggestions about this Privacy Policy, contact us at:</p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:shaunmascarenhas46@gmail.com">shaunmascarenhas46@gmail.com</a></li>
+            </ul>
+
+            <h2>11. Governing Law</h2>
+            <p>This Privacy Policy is governed by the laws of India, without regard to its conflict-of-law provisions.</p>
+
+            <h2>12. Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy from time to time. We will notify you of material changes by posting the updated policy on this page and updating the "Effective Date" above. Continued use of the App after changes take effect constitutes acceptance of the revised policy.</p>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2026 The Elimination Game. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
